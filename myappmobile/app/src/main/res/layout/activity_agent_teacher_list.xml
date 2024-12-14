@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registered Teachers"
+        android:textAlignment="center"
+        android:textColor="#003366"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/teachers_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/add_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add teacher"
+        android:backgroundTint="#003366"
+        android:textColor="#ffffff" />
+</LinearLayout>

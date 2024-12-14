@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="login">Login</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
+    <string name="administrator">Administrator</string>
+    <string name="tracking_agent">Tracking Agent</string>
+    <string name="teacher">Teacher</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account_sign_up_here">Don\'t have an account? Sign up here</string>
+    <string name="loading_absences">Loading absences...</string>
+    <string name="manage_absences">Manage Absences</string>
+    <string name="welcom_to_dashboard">welcome to Dashboard</string>
+    <string name="view_absence">view absence</string>
+    <string name="dashboard" />
+</resources>

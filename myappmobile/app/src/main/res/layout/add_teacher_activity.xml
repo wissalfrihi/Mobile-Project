@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#E3F2FD">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add A Teacher"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#003366"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/teacher_id_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Teacher"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:textColorHint="#90CAF9"
+        android:textColor="#0D47A1"
+        android:backgroundTint="#BBDEFB" />
+
+    <EditText
+        android:id="@+id/classname_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ClassName"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:textColorHint="#90CAF9"
+        android:textColor="#0D47A1"
+        android:backgroundTint="#BBDEFB" />
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:textColorHint="#90CAF9"
+        android:textColor="#0D47A1"
+        android:backgroundTint="#BBDEFB" />
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:textColorHint="#90CAF9"
+        android:textColor="#0D47A1"
+        android:backgroundTint="#BBDEFB" />
+
+    <Button
+        android:id="@+id/add_teacher_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:backgroundTint="#003366"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E3F2FD">
+
+
+    <TextView
+        android:id="@+id/absence_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Absences"
+        android:textAlignment="center"
+        android:textColor="#003366"
+    android:textSize="26sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="16dp" />
+
+
+    <TextView
+        android:id="@+id/teacher_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teacher Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#003366"
+    android:layout_marginBottom="12dp" />
+
+    <!-- RecyclerView pour afficher les absences -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/absence_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+    android:padding="8dp"
+    android:elevation="4dp"
+    android:clipToPadding="false"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="16dp"
+    android:scrollbars="vertical" />
+</LinearLayout>

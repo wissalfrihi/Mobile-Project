@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "382020931799",
+    "project_id": "absence-28b7f",
+    "storage_bucket": "absence-28b7f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382020931799:android:e2320d957b43fb3521a092",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDYR9X8j57kkaobsArZgniGBTfpmcNfRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

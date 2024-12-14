@@ -1,0 +1,80 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#E3F2FD">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add An Absence"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#003366"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/teacher_id_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Teacher"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/absence_date_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date Absence (YYYY-MM-DD)"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/absence_time_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time Absence (HH:MM)"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/salle_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Absence Room"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/classe_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Absence Class"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/add_absence_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Absence"
+        android:backgroundTint="#003366"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/view_schedules_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Schedules"
+        android:backgroundTint="#003366"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
